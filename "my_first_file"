@@ -1,0 +1,13 @@
+echo "# My First File" > my_first_file
+git add my_first_file
+git commit -m "Create my_first_file in main branch"
+git push origin main
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num1 = 5, num2 = 3;
+    cout << "Sum: " << num1 + num2 << endl;
+    return 0;
+}
