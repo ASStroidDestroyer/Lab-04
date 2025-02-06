@@ -12,3 +12,24 @@ int main() {
     return 0;
 }
 
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Declare two variables to store the numbers
+    double num1, num2, result;
+
+    // Ask the user to input two numbers
+    cout << "Enter the first number: ";
+    cin >> num1;
+    cout << "Enter the second number: ";
+    cin >> num2;
+
+    // Multiply the numbers
+    result = num1 * num2;
+
+    // Display the result
+    cout << "The result of multiplication is: " << result << endl;
+
+    return 0;
+}
